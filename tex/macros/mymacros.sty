@@ -1,0 +1,25 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mymacros}[2025/04/27 v0.1 Custom macros for Bitcoin Learning Book]
+
+% Note Box
+\newtcolorbox{noteBox}[1]{
+  colback=gray!5,
+  colframe=gray!50!gray,
+  title={#1},
+  fonttitle=\bfseries\small,
+  fontupper=\small,
+  boxrule=0.3mm,
+  arc=2mm,
+  left=1mm,
+  right=1mm,
+  top=1mm,
+  bottom=1mm,
+  enhanced
+}
+
+% Tick and Cross marks
+\newcommand{\cmark}{\ding{51}} % ✔
+\newcommand{\xmark}{\ding{55}} % ✘
+
+\endinput
+
