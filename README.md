@@ -4,29 +4,27 @@ This is a personal project to document and deeply understand Bitcoin concepts.
 
 
 ---
-
-
 ## Project Structure
+```plaintext
 .
-├── LICENSE
-├── Makefile
-├── README.md
-├── bitcoin_learning.pdf
-├── build
-├── output
-│   ├── main.aux
-│   ├── main.log
-│   ├── main.out
-│   ├── main.pdf
-│   └── main.toc
-└── tex
-    ├── chapters
-    ├── images
-    ├── macros
-    │   └── mymacros.sty
-    └── main.tex
-
-
+├── LICENSE                 # Project license (MIT)
+├── Makefile                # Makefile to build and clean
+├── README.md               # This readme
+├── bitcoin_learning.pdf    # Final output PDF
+├── build/                  # (reserved for future if needed)
+├── output/                 # Intermediate LaTeX output files
+│   ├── main.aux
+│   ├── main.log
+│   ├── main.out
+│   ├── main.pdf
+│   └── main.toc
+└── tex/                    # LaTeX source files
+    ├── chapters/           # (future) Split by chapters
+    ├── images/             # Images and diagrams
+    ├── macros/             # Custom LaTeX macros
+    │   └── mymacros.sty
+    └── main.tex            # Main LaTeX file
+```
 ---
 
 
@@ -45,14 +43,8 @@ To clean all build artifacts:
 make clean
 ```
 
-Final output PDF will be named:
-bitcoin_learning.pdf
-
----
-
-
-[Download the book (PDF)](bitcoin_learning.pdf)
-
+The final output PDF will be named:
+[bitcoin_learning.pdf](bitcoin_learning.pdf)
 
 ---
 
@@ -60,7 +52,8 @@ bitcoin_learning.pdf
 ## License
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
-
 ---
 
 Built with 🧡, curiosity, and commitment to mastery.
+
+---
